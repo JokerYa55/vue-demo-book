@@ -1,7 +1,7 @@
 <template>
-  <div>
+  <div class="col">
     <div v-for="category in getCategoryList" v-bind:key="category">
-    {{category}}  
+      <div>{{category}}</div>  
     </div>
   </div>
 </template>
