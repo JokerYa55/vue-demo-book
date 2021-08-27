@@ -1,8 +1,8 @@
 <template>
   <div class="col-8">
-    <div v-for="book in getBookList" v-bind:key="book">
+    <div class="col" v-for="book in getBookList" v-bind:key="book">
       <div class="card" style="width: 18rem">
-        <img src="11.jpg" class="card-img-top" alt="" />
+        <img v-bind:src="book.img" class="card-img-top" />
         <div class="card-body">
           <div>{{ book.title }}</div>
           <div>{{ book.isbn }}</div>
