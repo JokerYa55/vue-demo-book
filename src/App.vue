@@ -1,8 +1,9 @@
 <template>
   <div id="nav">
+    <router-link to="/book">Книги</router-link>|
+    <router-link to="/trash">Корзина</router-link>|
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>|
-    <router-link to="/book">Book</router-link>
+    <router-link to="/about">О компании</router-link>
   </div>
   <router-view/>
 </template>

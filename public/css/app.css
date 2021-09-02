@@ -1,0 +1,12 @@
+figure {
+    margin: 0 0 1rem;
+    width: 19%;
+}
+
+.category-item {
+    background-color: white;
+}
+
+.category-item:hover {
+    background-color: #faf5f5f9;
+}
