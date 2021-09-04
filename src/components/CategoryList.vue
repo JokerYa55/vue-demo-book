@@ -1,5 +1,5 @@
 <template>
-  <div class="col">
+  <div class="col  border rounded-3 category-list">
     <div v-for="category in getCategoryList" v-bind:key="category">
       <div class="category-item" v-on:click.stop="setCurrentCategory(category)">{{category}}</div>  
     </div>
@@ -22,3 +22,10 @@ import { Options, Vue } from "vue-class-component";
 })
 export default class CategoryList extends Vue {}
 </script>
+
+<style>
+  .category-list {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+</style>

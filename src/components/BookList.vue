@@ -1,5 +1,5 @@
 <template>
-  <div class="col-8">
+  <div class="col-8 rounded-3">
     <div class="container">
       <div class="col" v-for="book in getBookList" v-bind:key="book">
         <div class="card" style="width: 18rem">

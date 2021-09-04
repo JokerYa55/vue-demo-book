@@ -5,7 +5,7 @@
     </div>
     <div class="row">
       <category-list />
-        <book-list />
+      <book-list />
     </div>
     <div class="row">
       <button v-on:click="testClick">Поприветствовать</button>
@@ -25,3 +25,4 @@ import BookList from "@/components/BookList.vue";
 })
 export default class Main extends Vue {}
 </script>
+
