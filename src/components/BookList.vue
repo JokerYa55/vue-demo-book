@@ -15,12 +15,6 @@ import BookItem from "@/components/BookItem.vue";
   components: {
     BookItem
   },
-  /*methods: {
-    addTrash: function (book: any) {
-      this.$store.state.trashList.push(book);
-      console.log(this.$store.state.trashList);
-    },
-  },*/
   computed: {
     getBookList: function () {
       if (this.$store.state.currentCategory == "all") {
